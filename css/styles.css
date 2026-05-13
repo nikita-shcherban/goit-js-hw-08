@@ -1,0 +1,46 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  font-style: normal;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1128px;
+
+  margin: 0 auto;
+}
+
+.gallery-item {
+  max-width: 360px;
+}
+
+.gallery-image {
+  height: 200px;
+  object-fit: cover;
+}
